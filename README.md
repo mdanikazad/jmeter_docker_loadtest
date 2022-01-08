@@ -1,8 +1,8 @@
  # jmeter_docker_loadtest
 
 
-docker pull vinsdocker/jmmaster 
-docker pull vinsdocker/jmserver 
+docker pull vinsdocker/jmmaster  
+docker pull vinsdocker/jmserver  
 
 
 docker run -dit --name slave01 vinsdocker/jmserver /bin/bash 
